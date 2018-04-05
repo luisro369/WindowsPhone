@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Windows Phone</string>
+    <string name="Configuracion">configuracion</string>
+    <string name="Perfil">Perfil</string>
+    <string name="Favoritos">Favoritos</string>
+    <string name="Ingresos">Ingresos</string>
+    <string name="Presupuesto">Presupuesto</string>
+    <string name="Egreso">Egreso</string>
+
+
+
+</resources>
