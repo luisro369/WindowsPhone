@@ -12,7 +12,6 @@
 
         >
         <LinearLayout
-            android:id="holo"
             android:layout_margin="4dp"
             android:paddingVertical="10dp"
             android:orientation="vertical"
@@ -28,7 +27,7 @@
 
                 <LinearLayout
                     android:layout_margin="4dp"
-                    android:orientation="horizontal"
+                    android:orientation="vertical"
                     android:background="@color/colorConfiguracion"
                     android:layout_height="145dp"
                     android:layout_width="50dp"
@@ -43,11 +42,22 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     />
+                    <TextView
+                        android:layout_margin="4dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:text="@string/Configuracion"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:id="@+id/Configuracion"
+                        />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_margin="4dp"
-                    android:orientation="horizontal"
+                    android:orientation="vertical"
                     android:background="@color/colorPerfil"
                     android:layout_height="145dp"
                     android:layout_width="50dp"
@@ -61,11 +71,22 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         />
+                    <TextView
+                        android:layout_margin="4dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:text="@string/Configuracion"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:id="@+id/Perfil"
+                        />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_margin="4dp"
-                    android:orientation="horizontal"
+                    android:orientation="vertical"
                     android:background="@color/colorPresupuesto"
                     android:layout_height="145dp"
                     android:layout_width="50dp"
@@ -78,6 +99,17 @@
                         android:layout_weight="1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        />
+                    <TextView
+                        android:layout_margin="4dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:text="@string/Configuracion"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:id="@+id/Presupuesto"
                         />
                 </LinearLayout>
             </LinearLayout>
@@ -92,7 +124,7 @@
 
                 <LinearLayout
                     android:layout_margin="4dp"
-                    android:orientation="horizontal"
+                    android:orientation="vertical"
                     android:background="@color/colorEgreso"
                     android:layout_height="145dp"
                     android:layout_width="50dp"
@@ -107,11 +139,22 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         />
+                    <TextView
+                        android:layout_margin="4dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:text="@string/Configuracion"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:id="@+id/Egreso"
+                        />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_margin="4dp"
-                    android:orientation="horizontal"
+                    android:orientation="vertical"
                     android:background="@color/colorIngresos"
                     android:layout_height="145dp"
                     android:layout_width="50dp"
@@ -125,11 +168,22 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         />
+                    <TextView
+                        android:layout_margin="4dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:text="@string/Configuracion"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:id="@+id/Ingresos"
+                        />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_margin="4dp"
-                    android:orientation="horizontal"
+                    android:orientation="vertical"
                     android:background="@color/colorFavoritos"
                     android:layout_height="145dp"
                     android:layout_width="50dp"
@@ -142,6 +196,17 @@
                         android:layout_weight="1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        />
+                    <TextView
+                        android:layout_margin="4dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:text="@string/Configuracion"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:id="@+id/Favoritos"
                         />
                 </LinearLayout>
             </LinearLayout>
