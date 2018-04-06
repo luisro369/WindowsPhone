@@ -12,11 +12,13 @@
 
         >
         <LinearLayout
+            android:id="holo"
             android:layout_margin="4dp"
             android:paddingVertical="10dp"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <LinearLayout
                 android:layout_margin="4dp"
                 android:paddingHorizontal="10dp"
